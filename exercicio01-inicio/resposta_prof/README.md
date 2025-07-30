@@ -18,6 +18,6 @@ Retornei ao wireskark e apertei o botão stop para parar a captura dos pacotes. 
 
 ![imagem a seguir](../imagens/img2.png).
 
-Fui em salvar, e escoli o nome captura.pcapng para guardar o arquivo da captura.
+Fui em salvar, de o nome "captura.pcapng" para o arquivo de captura dos pacotes.
 
-Por fim, esse arquivo será submetido no classroom da disciplina.
+Por fim, o arquivo "captura.pcapng" será utilizado para compor o relatório da final dos laboratórios.
