@@ -10,7 +10,7 @@ Abri o navegador e digitei o endereço: http://gaia.cs.umass.edu/wireshark-labs/
 
 Iniciei o wireshark via terminal no linux, em seguida cliquei no botão "start capturing packets".
 
-No navegador cliquei em enter e recebi como resposta a página com a mensagem de "Congratulations! You've downloaded the first Wireshark lab file!" conforme a ![imagem a seguir](./imagens/img1.png) 
+No navegador cliquei em enter e recebi como resposta a página com a mensagem de "Congratulations! You've downloaded the first Wireshark lab file!" conforme a ![imagem a seguir](../imagens/img1.png) 
 
 Retornei ao wireskark e apertei o botão stop para parar a captura dos pacotes. E por fim obtive uma saída como a ![imagem a seguir](../imagens/img2.png).
 
