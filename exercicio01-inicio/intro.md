@@ -1,20 +1,23 @@
 # 🎯 Colocando o Wireshark em Funcionamento (Taking Wireshark for a Test Run)
 
+Pré Requesito:
+**Ter o Wireshark instalado e funcionando na sua máquina**
+
 A melhor maneira de aprender sobre uma nova ferramenta de software é testando! Vamos assumir que seu computador está conectado à Internet por uma interface Ethernet (com fio) ou Wi-Fi (802.11). Siga os passos abaixo:
 
 1. **Abra seu navegador web favorito**, que exibirá sua página inicial padrão.
 
-2. **Inicie o Wireshark.** Inicialmente, será exibida uma janela semelhante à da Figura 2. O Wireshark ainda não estará capturando pacotes.
+2. **Inicie o Wireshark.** Inicialmente, será exibida uma janela semelhante à da ![Figura 2](./imagens/fig2.png). O Wireshark ainda não estará capturando pacotes.
 
 3. Para começar a captura de pacotes:
    - Vá até o menu **Capture** e selecione **Interfaces** (em PCs), ou **Options** (em Macs).
-   - Isso abrirá a janela **Wireshark: Capture Interfaces**, onde você verá uma lista de interfaces de rede (como nas Figuras 4a e 4b).
+   - Isso abrirá a janela **Wireshark: Capture Interfaces**, onde você verá uma lista de interfaces de rede (como nas ![Figura 4a e 4b](./imagens/fig4.png)).
 
 4. Você verá uma lista de interfaces disponíveis no seu computador, junto com a contagem de pacotes já observados em cada uma.
    - Em um computador com Windows, clique em **Start** para a interface que deseja usar (por exemplo, "Gigabit Network Connection").
    - O Wireshark agora começará a capturar todos os pacotes sendo enviados e recebidos pela sua máquina!
 
-5. Após iniciar a captura, uma janela semelhante à Figura 3 aparecerá, mostrando os pacotes capturados.
+5. Após iniciar a captura, uma janela semelhante à ![Figura 3](./imagens/fig3.png) aparecerá, mostrando os pacotes capturados.
    - **Não pare a captura ainda.**
    - Vamos gerar tráfego interessante primeiro, usando um navegador que fará requisições HTTP — protocolo que estudaremos em detalhes na disciplina.
 
@@ -30,7 +33,7 @@ A melhor maneira de aprender sobre uma nova ferramenta de software é testando! 
 
 8. No campo de filtro de exibição no topo da janela do Wireshark, digite `http` (em minúsculo) e pressione **Enter**.  
    - Isso filtrará e exibirá **apenas os pacotes HTTP** na lista.
-   - A Figura 5 mostra um exemplo de visualização filtrada, detalhando uma mensagem HTTP GET encapsulada dentro de um segmento TCP, que está em um datagrama IP, dentro de um quadro Ethernet/Wi-Fi.
+   - A ![Figura 5](./imagens/fig5.png) mostra um exemplo de visualização filtrada, detalhando uma mensagem HTTP GET encapsulada dentro de um segmento TCP, que está em um datagrama IP, dentro de um quadro Ethernet/Wi-Fi.
 
 9. Localize a mensagem **HTTP GET** enviada do seu computador para `gaia.cs.umass.edu`.  
    - Clique nela e expanda as seções de protocolo (usando os ícones ▶/▼).
@@ -38,3 +41,6 @@ A melhor maneira de aprender sobre uma nova ferramenta de software é testando! 
 
 10. **Encerre o Wireshark.**  
     Parabéns! Você completou o primeiro laboratório com captura real de pacotes 🎉
+
+    **INSTRUÇÕES IMPORTANTES**
+    O arquivo .pcap deve ser guardado para depois ser submetido no classroom.
