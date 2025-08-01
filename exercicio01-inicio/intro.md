@@ -33,7 +33,7 @@ A melhor maneira de aprender sobre uma nova ferramenta de software é testando! 
 
 8. No campo de filtro de exibição no topo da janela do Wireshark, digite `http` (em minúsculo) e pressione **Enter**.  
    - Isso filtrará e exibirá **apenas os pacotes HTTP** na lista.
-   - A ![Figura 5](./imagens/fig5.png) mostra um exemplo de visualização filtrada, detalhando uma mensagem HTTP GET encapsulada dentro de um segmento TCP, que está em um datagrama IP, dentro de um quadro Ethernet/Wi-Fi.
+   - ![Figura 5](./imagens/fig5.png) mostra um exemplo de visualização filtrada, detalhando uma mensagem HTTP GET encapsulada dentro de um segmento TCP, que está em um datagrama IP, dentro de um quadro Ethernet/Wi-Fi.
 
 9. Localize a mensagem **HTTP GET** enviada do seu computador para `gaia.cs.umass.edu`.  
    - Clique nela e expanda as seções de protocolo (usando os ícones ▶/▼).
