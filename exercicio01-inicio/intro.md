@@ -1,5 +1,7 @@
 # 🎯 Colocando o Wireshark em Funcionamento (Taking Wireshark for a Test Run)
 
+**Importante** -  Laborátorio adaptado do matérial disponibilizado por Kurouse em: https://gaia.cs.umass.edu/kurose_ross/wireshark.php 
+
 Pré Requesito:
 **Ter o Wireshark instalado e funcionando na sua máquina**
 
@@ -43,4 +45,8 @@ A melhor maneira de aprender sobre uma nova ferramenta de software é testando! 
     Parabéns! Você completou o primeiro laboratório com captura real de pacotes 🎉
 
     **INSTRUÇÕES IMPORTANTES**
-    O arquivo .pcap deve ser guardado para depois ser submetido no classroom.
+    O arquivo .pcapng deve ser guardado para depois ser submetido no classroom.
+
+    **Atenção - Responda as questões sobre este laboratório**
+    ![Questões](Questoes.md)
+
