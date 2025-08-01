@@ -1,4 +1,4 @@
-# COM BASE NA LABORATÓRIO REALIZADO RESPONDA: - Minhas Respostas - Professora Déborah Job
+# COM BASE NA LABORATÓRIO REALIZADO RESPONDA:
 
 1. Quais dos seguintes protocolos aparecem (ou seja, estão listados na coluna “Protocol” do Wireshark) no seu arquivo de rastreamento: TCP, QUIC, HTTP, DNS, UDP, TLSv1.2?
 
@@ -30,5 +30,6 @@ Resposta:
 
 
 6. Imprima as duas mensagens HTTP (GET e OK) mencionadas na pergunta 2 acima. Para isso, selecione Print no menu File do Wireshark, marque as opções “Selected Packet Only” e “Print as displayed”, e clique em OK.
+   
 Resposta: **Imprima em PDF para anexar no trabalho**
 
