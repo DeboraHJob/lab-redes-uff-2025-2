@@ -1,6 +1,6 @@
 # Laboratórios de Redes - UFF 2025.2
 
-Os laboratórios a serem realizados estão elencado abaixo, contudo, a lista completa, que pode ser realizada para aprimorar o aprendizado, está disponível na sessão de referências.
+Os laboratórios a serem realizados estão elencado abaixo, contudo, a lista completa de laboratórios, a qual, pode ser realizada para aprimorar o seu aprendizado, está disponível em no site do Kurose .
 
 ## 🧪 Exercícios
 
