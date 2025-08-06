@@ -1,4 +1,6 @@
-# Laboratorios de Redes - UFF 2025.2
+# Laboratórios de Redes - UFF 2025.2
+
+Os laboratórios a serem realizados estão elencado abaixo, contudo, a lista completa, que pode ser realizada para aprimorar o aprendizado, está disponível na sessão de referências.
 
 ## 🧪 Exercícios
 
